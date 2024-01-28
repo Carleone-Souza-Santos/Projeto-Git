@@ -12,3 +12,22 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     let intervalId = setInterval(showNextImage, 5000);
 });
+
+
+
+  let climbscroll= document.getElementById("scrollClimb");
+  climbscroll.addEventListener("click", function() {
+
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+      });
+  });
+
+  window.addEventListener("scroll", function() {
+      if (window.pageYOffset > 500) { 
+        climbscroll.style.display = "block";
+      } else {
+        climbscroll.style.display = "none";
+      }
+  });
