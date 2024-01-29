@@ -17,6 +17,7 @@
     margin-left:10px;
     margin-top: 30px;
     cursor: pointer;
+    transition: 1s ease;
   }
   i{
     width: 30px;
@@ -34,21 +35,18 @@
     font-weight: 100;
     letter-spacing: 1px;
   }
+  
   .social-circle:nth-child(1):hover{
-    background-color: #3b5998;
+    background-color: #2057cf;
+    transition: 1s ease;
   }
   .social-circle:nth-child(2):hover{
-    background-color: #dd4b39;
+    background-color: #1380c0;
+    transition: 1s ease;
   }
   .social-circle:nth-child(3):hover{
-    background-color: #55acee;
-  }
-  .social-circle:nth-child(4):hover{
-    background-color: #007bb5;
+    background-color: #9d2ebec5;
+    transition: 1s ease;
   }
 
 
-  /* @media only screen and (max-width: 700px){
- 
-
-  } */
