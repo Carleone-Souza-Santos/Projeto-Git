@@ -13,8 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
     let intervalId = setInterval(showNextImage, 5000);
 });
 
-
-
   let climbscroll= document.getElementById("scrollClimb");
   climbscroll.addEventListener("click", function() {
 

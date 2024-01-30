@@ -1,59 +1,67 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;400&display=swap');
 
-*{
-font-family: Roboto Condensed;
+* {
+  font-family: Roboto Condensed;
 
 
 }
-body{
-  background-image: url(arsset/desktop-wallpaper-passing-comet-planet-lights-debris-comets-tail-stars.jpg); 
+
+body {
+  background-image: url(arsset/desktop-wallpaper-passing-comet-planet-lights-debris-comets-tail-stars.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: start center;
   box-sizing: border-box;
-  
-}
-
-nav{
-    width: 90%;
-    height: 50px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
 
 }
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    margin: 10px;
-    transition: 0.7s all;
+
+nav {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 
 }
- nav ul li a{
-    text-decoration: none;
-    color: rgb(241, 226, 12); 
-    padding: 30px;
-    transition: 1s ease;
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  transition: 0.7s all;
 
 }
-nav ul li a:hover{
-    color: rgba(61, 63, 189, 0.849); 
-    text-shadow: 1px 2px rgb(212, 197, 197);
-    transition: 1s ease;
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(241, 226, 12);
+  padding: 30px;
+  transition: 1s ease;
+
 }
+
+nav ul li a:hover {
+  color: rgba(61, 63, 189, 0.849);
+  text-shadow: 1px 2px rgb(212, 197, 197);
+  transition: 1s ease;
+}
+
 .visible {
-    opacity: 1;
+  opacity: 1;
 }
+
 .text-center {
   text-align: center;
 }
+
 .color-white {
   color: #ffffff;
 }
-h3{
-  color: rgb(241, 226, 12); 
-  text-shadow: 2px 2px rgb(5, 5, 5);;
+
+h3 {
+  color: rgb(241, 226, 12);
+  text-shadow: 2px 2px rgb(5, 5, 5);
+  ;
 }
 
 
@@ -63,7 +71,8 @@ h3{
   bottom: 70px;
   right: 20px;
   background-color: rgb(192, 192, 25);
-  border: 4px 1px solid red;;
+  border: 4px 1px solid red;
+  ;
   background-image: url(arsset/nave-espacial.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,7 +82,7 @@ h3{
   line-height: 40px;
   cursor: pointer;
   border-radius: 50%;
-  display: none; 
+  display: none;
 }
 
 
@@ -93,8 +102,9 @@ h3{
   width: 300px;
 
 
-   
+
 }
+
 .flip-box-front,
 .flip-box-back {
   background-size: cover;
@@ -109,11 +119,11 @@ h3{
 }
 
 .flip-box-front {
-  cursor: pointer;  
+  cursor: pointer;
   color: rgb(235, 199, 39);
   background-image: url("arsset/cardprincipal.png");
   border-radius: 20px;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 300px;
   -ms-transform: rotateY(0deg);
@@ -132,7 +142,7 @@ h3{
   -webkit-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  color: rgb(0, 0, 0)!important;
+  color: rgb(0, 0, 0) !important;
   opacity: 80%;
 }
 
@@ -147,12 +157,9 @@ h3{
   -webkit-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  background-image: url('arsset/');
-  background-size:auto;
-  background-repeat: no-repeat; 
   padding: 5px;
   border-radius: 10px;
- 
+
 }
 
 .flip-box:hover .flip-box-back {
@@ -188,20 +195,20 @@ h3{
 
 .flip-box p {
   color: transparent;
-  
+
 }
 
 .flip-box:hover p {
-    font-size: 19px;
-    line-height: 1em;
-    color: rgb(241, 226, 12); 
-    text-shadow: 1px 1px 1px red;
-  
+  font-size: 19px;
+  line-height: 1em;
+  color: rgb(241, 226, 12);
+  text-shadow: 1px 1px 1px red;
+
 }
 
 .flip-box-img {
   margin-top: 25px;
-  
+
 }
 
 @media only screen and (max-width: 1300px) {
@@ -211,12 +218,12 @@ h3{
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 100%;
-     height:100% ;
-     gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
   }
 
   .conteiner {
@@ -225,32 +232,32 @@ h3{
     justify-content: center;
     gap: 10px;
   }
-}  
+}
 
 @media only screen and (max-width: 960px) {
 
-  .flip-box{
+  .flip-box {
     width: 300px;
     display: flex;
     justify-content: center;
   }
 
-.conteiner {
-  display: grid;
-  grid-template-columns: 300px 300px ;
-  
-  
-}
+  .conteiner {
+    display: grid;
+    grid-template-columns: 300px 300px;
 
-  h1{
- font-size: 15px; 
-}
+
+  }
+
+  h1 {
+    font-size: 15px;
+  }
 
   .flip-box-header {
     font-size: 25px;
   }
-  
-  .flip-box{
+
+  .flip-box {
 
     display: flex;
     justify-content: center;
@@ -258,24 +265,25 @@ h3{
 }
 
 @media only screen and (max-width: 700px) {
-  nav{
+  nav {
     height: 60px;
     display: flex;
-    justify-content:center;
-    width: 100%;   
-  } 
-  nav ul li{
+    justify-content: center;
+    width: 100%;
+  }
+
+  nav ul li {
     margin: 0;
   }
 
   .conteiner {
     display: grid;
-    grid-template-columns: 280px 280px ;
+    grid-template-columns: 280px 280px;
     row-gap: 40px;
-   
-   
+
+
   }
-    
+
   .flip-box-front {
     width: 197px;
     height: 15px;
@@ -286,19 +294,19 @@ h3{
 
   .flip-box-header {
     font-size: 30px;
-   
+
   }
- 
-  
+
+
 }
 
 @media only screen and (max-width: 660px) {
 
   .conteiner {
     display: grid;
-    grid-template-columns:300px ;
+    grid-template-columns: 300px;
     row-gap: 10px;
-    
+
   }
 
   .flip-box-front {
